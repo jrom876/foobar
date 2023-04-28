@@ -52,18 +52,6 @@ target_compile_options(${PROJECT_NAME} PRIVATE
             -lgtest -lpthread
 )
 
-# if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
-#     target_compile_options(app PRIVATE /W4)
-# elseif (CMAKE_SYSTEM_NAME STREQUAL "Linux")
-#     target_compile_options(${PROJECT_NAME} PRIVATE 
-#             -Wall -Wextra -Wpedantic 
-#             -lrt -lm 
-#             -I$GOOGLETESTDIR/include 
-#             -L$GOOGLETESTDIR/lib 
-#             -lgtest -lpthread
-# )
-# endif()
-
 # Get GTest
 include(FetchContent)
 
