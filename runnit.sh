@@ -1,5 +1,5 @@
 #!/bin/bash
-## This script and builds cmake 
+## This script builds cmake 
 cmake .
 cmake --build .
 
